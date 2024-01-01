@@ -5,12 +5,16 @@
     --font1: 'Victor Mono',monoscape;
 }
 
+body,html{
+    overflow: hidden;
+
+}
+
 body{
     margin: 0;
     font-size: 3vh;
     color:var(--verdeNeon);
     background: black;
-    
     letter-spacing: 1px;
 }
 div{height: 100vh;
